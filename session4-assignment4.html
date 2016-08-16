@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.flex-item {
+    background-color: cornflowerblue;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+div
+{
+     width: 100px;
+  height: 100px;
+  text-align: center;
+  line-height: 100px;
+  background-color: #black;
+  border: 8px solid #black;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 30px;
+  -webkit-box-shadow: 2px 2px 4px #black;
+  -moz-box-shadow: 2px 2px 4px #black;
+  box-shadow: 2px 2px 4px #black;
+}
+#grad1 {
+    height: 150px;
+    width: 150px;
+    background: -webkit-radial-gradient(60% 55%, closest-side, red, yellow, green); /* Safari 5.1 to 6.0 */
+    background: -o-radial-gradient(60% 55%, closest-side, red, yellow, green); /* For Opera 11.6 to 12.0 */
+    background: -moz-radial-gradient(60% 55%, closest-side, red, yellow, green); /* For Firefox 3.6 to 15 */
+    background: radial-gradient(closest-side at 60% 55%, red, yellow, green); /* Standard syntax (must be last) */
+   
+}
+
+#grad2 {
+    height: 150px;
+    width: 150px;
+    background: -webkit-radial-gradient(60% 55%, farthest-side, red, yellow, black); /* Safari 5.1 to 6.0 */
+    background: -o-radial-gradient(60% 55%, farthest-side, red, yellow, black); /* For Opera 11.6 to 12.0 */
+    background: -moz-radial-gradient(60% 55%, farthest-side, red, yellow, black); /* For Firefox 3.6 to 15 */
+    background: radial-gradient(farthest-side at 60% 55%, red, yellow, black); /* Standard syntax (must be last) */
+}
+
+#grad3 {
+    height: 150px;
+    width: 150px;
+    background: -webkit-radial-gradient(60% 55%, closest-corner, red, yellow, black); /* Safari 5.1 to 6.0 */
+    background: -o-radial-gradient(60% 55%, closest-corner, red, yellow, black); /* For Opera 11.6 to 12.0 */
+    background: -moz-radial-gradient(60% 55%, closest-corner, red, yellow, black); /* For Firefox 3.6 to 15 */
+    background: radial-gradient(closest-corner at 60% 55%, red, yellow, black); /* Standard syntax (must be last) */
+}
+
+#grad4 {
+    height: 150px;
+    width: 150px;
+    background: -webkit-radial-gradient(60% 55%, farthest-corner, red, yellow, black); /* Safari 5.1 to 6.0 */
+    background: -o-radial-gradient(60% 55%, farthest-corner, red, yellow, black); /* For Opera 11.6 to 12.0 */
+    background: -moz-radial-gradient(60% 55%, farthest-corner, red, yellow, black); /* For Firefox 3.6 to 15 */
+    background: radial-gradient(farthest-corner at 60% 55%, red, yellow, black); /* Standard syntax (must be last) */
+}
+</style>
+</head>
+<body>
+
+<h3>Radial Gradients Assignment</h3>
+
+
+<div id="grad1" class="flex-item"></div>
+
+
+<div id="grad2" class="flex-item"></div>
+
+
+<div id="grad3" class="flex-item"></div>
+
+
+<div id="grad4" class="flex-item"></div>
+
+<p> <strong>Session4 Assignment 4 example</strong></p>
+
+</body>
+</html>
+
